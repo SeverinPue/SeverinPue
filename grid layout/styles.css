@@ -1,0 +1,55 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: violet;
+}
+
+.item1 {
+    grid-area: header;
+    color: skyblue;
+}
+
+.item2 {
+    grid-area: menu;
+    color: skyblue;
+}
+
+.item3 {
+    color: skyblue;
+    grid-area: main;
+}
+
+.item4 {
+    color: skyblue;
+    grid-area: right;
+}
+
+.item5 {
+    color: skyblue;
+    grid-area: footer;
+}
+
+.item6 {
+    color: skyblue;
+    grid-area: Sevi;
+}
+
+.grid-container {
+    width: fit-content;
+    display: grid;
+    grid-gap: 5px;
+    background-color: olive;
+    padding: 10px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: 'header  header  header  header' ' main    Sevi    right   right' ' footer  footer  menu    menu';
+}
+
+.grid-container>div {
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

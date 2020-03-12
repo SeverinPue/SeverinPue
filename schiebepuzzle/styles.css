@@ -1,0 +1,38 @@
+td {
+    border: 1px solid green;
+    width: 2em;
+    height: 2em;
+}
+
+td {
+    border: 1px solid green;
+}
+
+div {
+    font: 24px Helvetica;
+    color: white;
+    background: red;
+    padding: 3px 10px 3px 10px;
+}
+
+.homebutton {
+    width: 120px;
+    /* Breite des Buttons */
+    height: 25px;
+    /* Höhe des Buttons */
+    border: 3px solid red;
+    /* Rahmen */
+    border-radius: 10px;
+    /* Abgerundete Ecken */
+    background-image: linear-gradient(gold, gold);
+    /* Farbverlauf */
+    display: inline-block;
+    /* Darstellung als Inline-Block */
+    text-align: center;
+    /* Horizontale Text-Ausrichtung */
+    text-decoration: none;
+    /* Links nicht unterstrichen */
+    color: black;
+    /* Textfarbe */
+    margin: 10PX;
+}

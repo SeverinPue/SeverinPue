@@ -1,0 +1,136 @@
+#button {
+    width: 60px;
+    font-size: 22px;
+    padding: 6px;
+    margin-bottom: 6px
+}
+
+#item1 {
+    grid-area: C;
+    color: black;
+    background-color: royalblue;
+}
+
+#item2 {
+    grid-area: sieben;
+    color: black;
+}
+
+#item3 {
+    color: black;
+    grid-area: acht;
+}
+
+#item4 {
+    color: black;
+    grid-area: neun;
+}
+
+#item5 {
+    color: black;
+    grid-area: plus;
+}
+
+#item6 {
+    color: black;
+    grid-area: vier;
+}
+
+#item7 {
+    color: black;
+    grid-area: fuenf;
+}
+
+#item8 {
+    color: black;
+    grid-area: sechs;
+}
+
+#item9 {
+    color: black;
+    grid-area: minus;
+}
+
+#item10 {
+    color: black;
+    grid-area: eins;
+}
+
+#item11 {
+    color: black;
+    grid-area: zwei;
+}
+
+#item12 {
+    color: black;
+    grid-area: drei;
+}
+
+#item13 {
+    color: black;
+    grid-area: mal;
+}
+
+#item14 {
+    color: black;
+    grid-area: null;
+}
+
+#item15 {
+    color: black;
+    grid-area: punkt;
+}
+
+#item16 {
+    color: black;
+    grid-area: gleich;
+    background-color: red;
+}
+
+#item17 {
+    color: black;
+    grid-area: geteilt;
+}
+
+#display {
+    grid-area: input;
+}
+
+.grid-container {
+    width: fit-content;
+    display: grid;
+    grid-gap: 5px;
+    background-color: olive;
+    padding: 10px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: "input input input C" " sieben acht neun minus" "  vier fuenf sechs plus" " eins zwei drei mal" "null punkt gleich geteilt";
+}
+
+.grid-container>div {
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#startseite {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 120px;
+    height: 25px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-image: linear-gradient(gold, gold);
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 10PX;
+}
+
+#Taschenrechner {
+    position: absolute;
+    top: 90px;
+}
