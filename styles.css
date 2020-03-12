@@ -1,0 +1,80 @@
+/* Ich bin ein Kommentar */
+
+#title {
+    color: red;
+}
+
+h2 {
+    color: goldenrod;
+    margin: 23px;
+}
+
+h1 {
+    margin: 40px;
+}
+
+p {
+    margin: 15px;
+}
+
+#Taschen {
+    position: absolute;
+    top: 210px;
+    left: 9px;
+}
+
+button {
+    width: 120px;
+    /* Breite des Buttons */
+    height: 25px;
+    /* Höhe des Buttons */
+    border: 3px solid blue;
+    /* Rahmen */
+    border-radius: 10px;
+    /* Abgerundete Ecken */
+    background-image: linear-gradient(red, olive);
+    /* Farbverlauf */
+    display: inline-block;
+    /* Darstellung als Inline-Block */
+    text-align: center;
+    /* Horizontale Text-Ausrichtung */
+    text-decoration: none;
+    /* Links nicht unterstrichen */
+    color: black;
+    /* Textfarbe */
+    margin: 10PX;
+}
+
+.homebutton {
+    width: 120px;
+    /* Breite des Buttons */
+    height: 25px;
+    /* Höhe des Buttons */
+    border: 3px solid red;
+    /* Rahmen */
+    border-radius: 10px;
+    /* Abgerundete Ecken */
+    background-image: linear-gradient(gold, gold);
+    /* Farbverlauf */
+    display: inline-block;
+    /* Darstellung als Inline-Block */
+    text-align: center;
+    /* Horizontale Text-Ausrichtung */
+    text-decoration: none;
+    /* Links nicht unterstrichen */
+    color: black;
+    /* Textfarbe */
+    margin: 10PX;
+}
+
+footer {
+    grid-area: footer;
+    height: 430px;
+    max-width: 100%;
+    display: block;
+    background: #0e274c;
+}
+
+.spetziel {
+    height: 40px;
+}
