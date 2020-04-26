@@ -1,0 +1,196 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10rem;
+}
+
+button.button-1 {
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 3rem 1rem 7rem;
+    background-color: #121821;
+    position: relative;
+    color: greenyellow;
+    font-size: 1.6rem;
+    transition: all 250ms;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+
+button.button-1:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+button.button-1 img {
+    top: 1.3rem;
+    left: 1.1rem;
+    z-index: 2;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+button.button-1 span {
+    z-index: 2;
+    position: relative;
+}
+
+button.button-1::after {
+    width: 3.9rem;
+    height: 3.9rem;
+    border-radius: 2rem;
+    background-color: #FF6E48;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    transition: all 250ms;
+}
+
+button.button-2 {
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #121821;
+    position: relative;
+    color: greenyellow;
+    font-size: 1.6rem;
+    transition: all 250ms;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+
+button.button-2::before {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    border: 0.1rem solid #FF6E48;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+button.button-2:hover::before {
+    animation: 1000ms border infinite;
+}
+
+button.button-3 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+}
+
+button.button-3 span {
+    display: block;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    background-color: #121821;
+    position: absolute;
+    color: greenyellow;
+    font-size: 1.6rem;
+    transition: all 250ms;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+button.button-3 span:hover {
+    color: #00ffff;
+}
+
+button.button-3::before {
+    filter: blur(30px);
+    background-color: palevioletred;
+    border-radius: 2rem;
+    content: "";
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    transition: all 250ms;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+button.button-3::after {
+    filter: blur(30px);
+    background-color: green;
+    border-radius: 2rem;
+    content: "";
+    z-index: 1;
+    width: 50%;
+    bottom: 0;
+    transition: all 250ms;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    display: block;
+    opacity: 0;
+}
+
+button.button-3:hover::before,
+button.button-3:hover::after {
+    opacity: 1;
+    animation: backGlow 7s ease infinite;
+}
+
+@keyframes border {
+    0% {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.3, 1.6);
+    }
+}
+
+@keyframes backGlow {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.2;
+    }
+    25% {
+        transform: translate(15%, 0%) scale(0.9);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(25%, 15%) scale(0.8);
+        opacity: 0.3;
+    }
+    75% {
+        transform: translate(0%, 5%) scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(0%, 0%) scale(0.9);
+        opacity: 0.2;
+    }
+}
