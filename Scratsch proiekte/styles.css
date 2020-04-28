@@ -2,8 +2,9 @@
     color: aqua;
 }
 
-#text {
-    color: gold;
+.text {
+    color: white;
+    position: absolute;
 }
 
 #title {
@@ -36,7 +37,7 @@ html {
 }
 
 .glitch {
-    color: gold;
+    color: white;
     font-size: 10rem;
     width: 40rem;
     position: relative;
@@ -47,7 +48,7 @@ html {
     position: absolute;
     top: 0;
     left: 0.5rem;
-    color: gold;
+    color: white;
     background-color: black;
     overflow: hidden;
     text-shadow: -0.5rem 0 #FF6E48;
@@ -60,7 +61,7 @@ html {
     position: absolute;
     top: 0;
     left: -1rem;
-    color: gold;
+    color: white;
     background-color: black;
     overflow: hidden;
     text-shadow: 0.3rem 0 rgb(221, 67, 28);
@@ -223,7 +224,7 @@ button.button-1::after {
     width: 3.9rem;
     height: 3.9rem;
     border-radius: 2rem;
-    background-color: #FF6E48;
+    background-color: blue;
     content: "";
     display: block;
     position: absolute;
