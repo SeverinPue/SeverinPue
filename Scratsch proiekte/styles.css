@@ -51,7 +51,7 @@ html {
     color: white;
     background-color: black;
     overflow: hidden;
-    text-shadow: -0.5rem 0 #FF6E48;
+    text-shadow: -0.5rem 0 blue;
     clip: rect(0, 90rem, 0, 0);
     animation: noise 2s infinite linear alternate-reverse;
 }
@@ -64,7 +64,7 @@ html {
     color: white;
     background-color: black;
     overflow: hidden;
-    text-shadow: 0.3rem 0 rgb(221, 67, 28);
+    text-shadow: 0.3rem 0 blue(221, 67, 28);
     clip: rect(0, 90rem, 0, 0);
     animation: noise 4s infinite linear alternate-reverse;
 }
