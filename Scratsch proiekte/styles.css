@@ -1,27 +1,40 @@
-#Titel {
-    color: aqua;
-}
-
-.text {
-    color: white;
-    position: absolute;
-}
-
-#title {
-    color: red;
-}
-
-.h2 {
-    border-top: 5px;
-    border-radius: 5px;
-}
-
-
-/*Ab hir für den Glitch*/
-
-body,
-
-/*html {
+    #Titel {
+        color: aqua;
+    }
+    
+    .text {
+        color: white;
+        position: absolute;
+    }
+    
+    #title {
+        color: red;
+    }
+    
+    .h2 {
+        border-top: 5px;
+        border-radius: 5px;
+    }
+    
+    .hintergrund {
+        background: #efefef url("china-reisfelder-beitragsbild.png") repeat-x;
+    }
+    
+    #text {
+        color: white;
+    }
+    
+    p {
+        color: white;
+    }
+    
+    #an {
+        color: white;
+    }
+    /*Ab hir für den Glitch*/
+    
+    body,
+    /*html {
     
     font-family: 'Roboto';
     width: 100%;
@@ -32,337 +45,337 @@ body,
     justify-content: center;
     align-items: center;
 }*/
-
-html {
-    background-color: black;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.glitch {
-    color: white;
-    font-size: 10rem;
-    width: 40rem;
-    position: relative;
-}
-
-.glitch::after {
-    content: attr(data-trick);
-    position: absolute;
-    top: 0;
-    left: 0.5rem;
-    color: white;
-    background-color: black;
-    overflow: hidden;
-    text-shadow: -0.5rem 0 blue;
-    clip: rect(0, 90rem, 0, 0);
-    animation: noise 2s infinite linear alternate-reverse;
-}
-
-.glitch::before {
-    content: attr(data-trick);
-    position: absolute;
-    top: 0;
-    left: -1rem;
-    color: white;
-    background-color: black;
-    overflow: hidden;
-    text-shadow: 0.3rem 0 blue(221, 67, 28);
-    clip: rect(0, 90rem, 0, 0);
-    animation: noise 4s infinite linear alternate-reverse;
-}
-
-@keyframes noise {
-    0% {
-        clip: rect(4rem, 99.99rem, 1rem, 0);
+    
+    html {
+        background-color: black;
     }
-    4% {
-        clip: rect(9rem, 99.99rem, 5rem, 0);
+    
+    * {
+        box-sizing: border-box;
     }
-    8% {
-        clip: rect(12rem, 99.99rem, 5rem, 0);
+    
+    .glitch {
+        color: white;
+        font-size: 10rem;
+        width: 40rem;
+        position: relative;
     }
-    12% {
-        clip: rect(12rem, 99.99rem, 1rem, 0);
+    
+    .glitch::after {
+        content: attr(data-trick);
+        position: absolute;
+        top: 0;
+        left: 0.5rem;
+        color: white;
+        background-color: black;
+        overflow: hidden;
+        text-shadow: -0.5rem 0 blue;
+        clip: rect(0, 90rem, 0, 0);
+        animation: noise 2s infinite linear alternate-reverse;
     }
-    16% {
-        clip: rect(1rem, 99.99rem, 4rem, 0);
+    
+    .glitch::before {
+        content: attr(data-trick);
+        position: absolute;
+        top: 0;
+        left: -1rem;
+        color: white;
+        background-color: black;
+        overflow: hidden;
+        text-shadow: 0.3rem 0 blue(221, 67, 28);
+        clip: rect(0, 90rem, 0, 0);
+        animation: noise 4s infinite linear alternate-reverse;
     }
-    20% {
-        clip: rect(9rem, 99.99rem, 9rem, 0);
+    
+    @keyframes noise {
+        0% {
+            clip: rect(4rem, 99.99rem, 1rem, 0);
+        }
+        4% {
+            clip: rect(9rem, 99.99rem, 5rem, 0);
+        }
+        8% {
+            clip: rect(12rem, 99.99rem, 5rem, 0);
+        }
+        12% {
+            clip: rect(12rem, 99.99rem, 1rem, 0);
+        }
+        16% {
+            clip: rect(1rem, 99.99rem, 4rem, 0);
+        }
+        20% {
+            clip: rect(9rem, 99.99rem, 9rem, 0);
+        }
+        24% {
+            clip: rect(9rem, 99.99rem, 7rem, 0);
+        }
+        28% {
+            clip: rect(6rem, 99.99rem, 12rem, 0);
+        }
+        32% {
+            clip: rect(5rem, 99.99rem, 11rem, 0);
+        }
+        36% {
+            clip: rect(10rem, 99.99rem, 2rem, 0);
+        }
+        40% {
+            clip: rect(3rem, 99.99rem, 5rem, 0);
+        }
+        44% {
+            clip: rect(2rem, 99.99rem, 9rem, 0);
+        }
+        48% {
+            clip: rect(10rem, 99.99rem, 5rem, 0);
+        }
+        52% {
+            clip: rect(11rem, 99.99rem, 11rem, 0);
+        }
+        56% {
+            clip: rect(10rem, 99.99rem, 11rem, 0);
+        }
+        60% {
+            clip: rect(1rem, 99.99rem, 3rem, 0);
+        }
+        64% {
+            clip: rect(4rem, 99.99rem, 7rem, 0);
+        }
+        68% {
+            clip: rect(4rem, 99.99rem, 12rem, 0);
+        }
+        72% {
+            clip: rect(9rem, 99.99rem, 4rem, 0);
+        }
+        76% {
+            clip: rect(2rem, 99.99rem, 3rem, 0);
+        }
+        80% {
+            clip: rect(12rem, 99.99rem, 7rem, 0);
+        }
+        84% {
+            clip: rect(10rem, 99.99rem, 8rem, 0);
+        }
+        88% {
+            clip: rect(7rem, 99.99rem, 4rem, 0);
+        }
+        92% {
+            clip: rect(10rem, 99.99rem, 2rem, 0);
+        }
+        96% {
+            clip: rect(5rem, 99.99rem, 12rem, 0);
+        }
+        100% {
+            clip: rect(3rem, 99.99rem, 8rem, 0);
+        }
     }
-    24% {
-        clip: rect(9rem, 99.99rem, 7rem, 0);
+    
+    .Button1 {
+        position: relative;
+        top: 5px;
+        right: 10px;
     }
-    28% {
-        clip: rect(6rem, 99.99rem, 12rem, 0);
+    
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    32% {
-        clip: rect(5rem, 99.99rem, 11rem, 0);
+    
+    * {
+        box-sizing: border-box;
     }
-    36% {
-        clip: rect(10rem, 99.99rem, 2rem, 0);
+    
+    button {
+        margin: 5px;
     }
-    40% {
-        clip: rect(3rem, 99.99rem, 5rem, 0);
+    
+    button.button-1 {
+        border-radius: 2rem;
+        border: none;
+        padding: 1rem 3rem 1rem 8rem;
+        background-color: #121821;
+        position: relative;
+        color: greenyellow;
+        font-size: 1.4rem;
+        transition: all 250ms;
+        cursor: pointer;
+        z-index: 1;
+        position: relative;
     }
-    44% {
-        clip: rect(2rem, 99.99rem, 9rem, 0);
+    
+    button.button-1:hover::after {
+        width: 100%;
+        right: 0;
     }
-    48% {
-        clip: rect(10rem, 99.99rem, 5rem, 0);
+    
+    .Startbutton img {
+        height: 3rem !important;
+        width: 5rem !important;
+        top: 0.5rem !important;
+        left: 0.0000000006px !important;
+        z-index: 2 !important;
+        position: absolute !important;
     }
-    52% {
-        clip: rect(11rem, 99.99rem, 11rem, 0);
+    
+    button.button-1 img {
+        top: 1.3rem;
+        left: 1.1rem;
+        z-index: 2;
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
     }
-    56% {
-        clip: rect(10rem, 99.99rem, 11rem, 0);
+    
+    button.button-1 span {
+        z-index: 2;
+        position: relative;
     }
-    60% {
-        clip: rect(1rem, 99.99rem, 3rem, 0);
+    
+    button.button-1::after {
+        width: 3.9rem;
+        height: 3.9rem;
+        border-radius: 2rem;
+        background-color: blue;
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        transition: all 250ms;
     }
-    64% {
-        clip: rect(4rem, 99.99rem, 7rem, 0);
+    
+    button.button-2 {
+        border-radius: 2rem;
+        border: none;
+        padding: 1rem 3rem 1rem 3rem;
+        background-color: #121821;
+        position: relative;
+        color: greenyellow;
+        font-size: 1.6rem;
+        transition: all 250ms;
+        cursor: pointer;
+        z-index: 1;
+        position: relative;
     }
-    68% {
-        clip: rect(4rem, 99.99rem, 12rem, 0);
-    }
-    72% {
-        clip: rect(9rem, 99.99rem, 4rem, 0);
-    }
-    76% {
-        clip: rect(2rem, 99.99rem, 3rem, 0);
-    }
-    80% {
-        clip: rect(12rem, 99.99rem, 7rem, 0);
-    }
-    84% {
-        clip: rect(10rem, 99.99rem, 8rem, 0);
-    }
-    88% {
-        clip: rect(7rem, 99.99rem, 4rem, 0);
-    }
-    92% {
-        clip: rect(10rem, 99.99rem, 2rem, 0);
-    }
-    96% {
-        clip: rect(5rem, 99.99rem, 12rem, 0);
-    }
-    100% {
-        clip: rect(3rem, 99.99rem, 8rem, 0);
-    }
-}
-
-.Button1 {
-    position: relative;
-    top: 5px;
-    right: 10px;
-}
-
-body,
-html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto';
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-button {
-    margin: 5px;
-}
-
-button.button-1 {
-    border-radius: 2rem;
-    border: none;
-    padding: 1rem 3rem 1rem 8rem;
-    background-color: #121821;
-    position: relative;
-    color: greenyellow;
-    font-size: 1.4rem;
-    transition: all 250ms;
-    cursor: pointer;
-    z-index: 1;
-    position: relative;
-}
-
-button.button-1:hover::after {
-    width: 100%;
-    right: 0;
-}
-
-.Startbutton img {
-    height: 3rem !important;
-    width: 5rem !important;
-    top: 0.5rem !important;
-    left: 0.0000000006px !important;
-    z-index: 2 !important;
-    position: absolute !important;
-}
-
-button.button-1 img {
-    top: 1.3rem;
-    left: 1.1rem;
-    z-index: 2;
-    position: absolute;
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-button.button-1 span {
-    z-index: 2;
-    position: relative;
-}
-
-button.button-1::after {
-    width: 3.9rem;
-    height: 3.9rem;
-    border-radius: 2rem;
-    background-color: blue;
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    transition: all 250ms;
-}
-
-button.button-2 {
-    border-radius: 2rem;
-    border: none;
-    padding: 1rem 3rem 1rem 3rem;
-    background-color: #121821;
-    position: relative;
-    color: greenyellow;
-    font-size: 1.6rem;
-    transition: all 250ms;
-    cursor: pointer;
-    z-index: 1;
-    position: relative;
-}
-
-button.button-2::before {
-    width: 100%;
-    height: 100%;
-    border-radius: 2rem;
-    border: 0.1rem solid #FF6E48;
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    opacity: 0;
-}
-
-button.button-2:hover::before {
-    animation: 1000ms border infinite;
-}
-
-button.button-3 {
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    position: relative;
-}
-
-button.button-3 span {
-    display: block;
-    padding: 1rem 3rem 1rem 3rem;
-    border-radius: 2rem;
-    background-color: #121821;
-    position: absolute;
-    color: greenyellow;
-    font-size: 1.6rem;
-    transition: all 250ms;
-    cursor: pointer;
-    z-index: 2;
-    position: relative;
-}
-
-button.button-3 span:hover {
-    color: #00ffff;
-}
-
-button.button-3::before {
-    filter: blur(30px);
-    background-color: palevioletred;
-    border-radius: 2rem;
-    content: "";
-    z-index: 1;
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    display: block;
-    transition: all 250ms;
-    animation-delay: 2s;
-    opacity: 0;
-}
-
-button.button-3::after {
-    filter: blur(30px);
-    background-color: green;
-    border-radius: 2rem;
-    content: "";
-    z-index: 1;
-    width: 50%;
-    bottom: 0;
-    transition: all 250ms;
-    right: 0;
-    height: 100%;
-    position: absolute;
-    display: block;
-    opacity: 0;
-}
-
-button.button-3:hover::before,
-button.button-3:hover::after {
-    opacity: 1;
-    animation: backGlow 7s ease infinite;
-}
-
-@keyframes border {
-    0% {
-        transform: scale(1, 1);
-        opacity: 1;
-    }
-    100% {
+    
+    button.button-2::before {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+        border: 0.1rem solid #FF6E48;
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
         opacity: 0;
-        transform: scale(1.3, 1.6);
     }
-}
-
-@keyframes backGlow {
-    0% {
-        transform: translate(0, 0) scale(1);
-        opacity: 0.2;
+    
+    button.button-2:hover::before {
+        animation: 1000ms border infinite;
     }
-    25% {
-        transform: translate(15%, 0%) scale(0.9);
+    
+    button.button-3 {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        position: relative;
+    }
+    
+    button.button-3 span {
+        display: block;
+        padding: 1rem 3rem 1rem 3rem;
+        border-radius: 2rem;
+        background-color: #121821;
+        position: absolute;
+        color: greenyellow;
+        font-size: 1.6rem;
+        transition: all 250ms;
+        cursor: pointer;
+        z-index: 2;
+        position: relative;
+    }
+    
+    button.button-3 span:hover {
+        color: #00ffff;
+    }
+    
+    button.button-3::before {
+        filter: blur(30px);
+        background-color: palevioletred;
+        border-radius: 2rem;
+        content: "";
+        z-index: 1;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        transition: all 250ms;
+        animation-delay: 2s;
+        opacity: 0;
+    }
+    
+    button.button-3::after {
+        filter: blur(30px);
+        background-color: green;
+        border-radius: 2rem;
+        content: "";
+        z-index: 1;
+        width: 50%;
+        bottom: 0;
+        transition: all 250ms;
+        right: 0;
+        height: 100%;
+        position: absolute;
+        display: block;
+        opacity: 0;
+    }
+    
+    button.button-3:hover::before,
+    button.button-3:hover::after {
         opacity: 1;
+        animation: backGlow 7s ease infinite;
     }
-    50% {
-        transform: translate(25%, 15%) scale(0.8);
-        opacity: 0.3;
+    
+    @keyframes border {
+        0% {
+            transform: scale(1, 1);
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: scale(1.3, 1.6);
+        }
     }
-    75% {
-        transform: translate(0%, 5%) scale(1.2);
-        opacity: 0.7;
+    
+    @keyframes backGlow {
+        0% {
+            transform: translate(0, 0) scale(1);
+            opacity: 0.2;
+        }
+        25% {
+            transform: translate(15%, 0%) scale(0.9);
+            opacity: 1;
+        }
+        50% {
+            transform: translate(25%, 15%) scale(0.8);
+            opacity: 0.3;
+        }
+        75% {
+            transform: translate(0%, 5%) scale(1.2);
+            opacity: 0.7;
+        }
+        100% {
+            transform: translate(0%, 0%) scale(0.9);
+            opacity: 0.2;
+        }
     }
-    100% {
-        transform: translate(0%, 0%) scale(0.9);
-        opacity: 0.2;
-    }
-}
