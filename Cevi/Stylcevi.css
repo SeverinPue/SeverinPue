@@ -260,7 +260,7 @@ button.button-1 {
     padding: 1rem 3rem 1rem 8rem;
     background-color: hsla(350, 10%, 10%, 0.8);
     position: relative;
-    color: red;
+    color: green;
     font-size: 1.4rem;
     transition: all 250ms;
     cursor: pointer;
@@ -277,6 +277,10 @@ button.button-1:hover::after {
     position: absolute;
 }
 
+button.button-1 {
+    width: 200px;
+}
+
 .Startbutton img {
     margin: 0px;
     height: 3rem !important;
@@ -285,10 +289,6 @@ button.button-1:hover::after {
     left: 0.0000000006px !important;
     z-index: 2 !important;
     position: absolute !important;
-}
-
-button.button-1 {
-    width: 200px;
 }
 
 button.button-1 img {
@@ -303,6 +303,10 @@ button.button-1 img {
 button.button-1 span {
     z-index: 2;
     position: relative;
+}
+
+.button.button-1 {
+    width: 308px;
 }
 
 button.button-1::after {
@@ -346,6 +350,10 @@ button.button-2::before {
     left: 0;
     top: 0;
     opacity: 0;
+}
+
+#weil {
+    width: 308px;
 }
 
 button.button-2:hover::before {
