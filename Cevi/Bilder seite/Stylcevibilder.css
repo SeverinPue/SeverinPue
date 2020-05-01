@@ -31,7 +31,7 @@ div.figure {
     float: center;
     width: 30%;
     border: thin silver solid;
-    margin: 5px;
+    margin: 0.5em;
     padding: 0.5em;
     text-align: center;
     font-style: italic;
