@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="canvas1" width="300" height="300">
+	<title>Arbeiten mit Pattern</title>
+	<desc>Beispiel mit Vasarely Style</desc>
+	<defs>
+		<pattern id="cube" width="50px" height="86.52px" patternUnits="userSpaceOnUse">
+			<polygon id="top" fill="#FCCB4F" points="50,0 50,0 25,14.43 0,0"/>
+			<polygon id="topleft" fill="#F8B334" points="25,14.43 25,43.298 0,28.858 0,0"/>
+			<polygon id="topright" fill="#F9E532" points="50,0.021 50,28.868 25,43.298 25,14.43 	"/>
+			<polygon id="midleft" fill="#FCCB4F" points="25,43.298 0,57.715 0,28.868"/>
+			<polygon id="midright" fill="#FCCB4F" points="50,28.868 50,57.758 25,43.298"/>
+			<polygon id="bottomleft" fill="#F9E532" points="25,43.362 25,72.156 0,86.52 0,86.52 0,57.715"/>
+			<polygon id="bottomright" fill="#F8B334" points="50,57.715 50,86.52 50,86.52 25,72.156 25,43.298"/>
+			<polygon id="bottom" fill="#FCCB4F" points="50,86.52 0,86.52 25,72.156 25,72.156"/>
+			<!--<circle x="25" y="72" r="1" fill="red"></circle>-->
+		</pattern>
+	</defs>
+	<rect x="0" y="0" rx="0" ry="0" width="300" height="300" fill="url(#cube)" stroke="none" stroke-width="50"/>
+</svg>

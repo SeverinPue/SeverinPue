@@ -1,7 +1,12 @@
 /*Ab hir sin die Buttons*/
 
+main {
+    margin-left: 20%;
+    margin-right: 17%;
+}
+
 body {
-    color: #5f6368;
+    color: var(--tietlefarbe);
     line-height: 1.65em;
     -webkit-touch-callout: none;
     width: 100%;
@@ -10,6 +15,12 @@ body {
     grid-template-columns: auto;
     grid-template-rows: 50px auto 430px;
     grid-template-areas: "header" "main" "footer";
+    margin: 0;
+}
+
+.Bilduntertietel {
+    color: var(--textfarbe);
+    margin: 16px;
 }
 
 figcaption {
@@ -22,16 +33,26 @@ img {
     margin: 10px;
 }
 
+p {
+    color: var(--textfarbe);
+    size: 20px;
+    font-family: cursive;
+}
+
+.Text {
+    text-align: center;
+}
+
 .page_title {
-    font-size: 20px;
-    margin: 10px;
+    font-size: 40px;
+    margin: 50px;
+    text-align: center;
 }
 
 div.figure {
     float: center;
-    width: 30%;
-    border: thin silver solid;
-    margin: 0.5em;
+    width: 90%;
+    border: thin var(--randfarbe) solid;
     padding: 0.5em;
     text-align: center;
     font-style: italic;
@@ -39,6 +60,8 @@ div.figure {
     text-indent: 0;
     clear: both;
     display: block;
+    background: var(--randfarbe);
+    margin: 50px;
 }
 
 img.scaled {
@@ -60,6 +83,27 @@ footer {
     grid-area: footer;
     height: 130px;
     max-width: 100%;
-    background: #0e274c;
+    background: var(--randfarbe);
     display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.unterschritt {
+    color: var(--textfarbe);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+}
+
+
+/*Variable*/
+
+:root {
+    --randfarbe: rgba(11, 98, 15, 0.6);
+    --textfarbe: black;
+    --tietlefarbe: red;
 }
