@@ -36,7 +36,8 @@ img {
 
 p {
     color: var(--textfarbe);
-    size: 20px;
+    font-size: 16px;
+    line-height: 21px;
     font-family: cursive;
 }
 
@@ -97,7 +98,6 @@ footer {
     margin-right: auto;
     width: 100%;
     text-align: center;
-    margin: 40px;
 }
 
 
