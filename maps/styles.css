@@ -1,5 +1,7 @@
 .Schweiz {
     margin: 5px;
+    position: relative;
+    left: 50px;
 }
 
 .show {
