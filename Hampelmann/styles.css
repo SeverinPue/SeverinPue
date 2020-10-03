@@ -139,3 +139,83 @@
     position: absolute;
     left: 250px;
 }
+
+button {
+    margin: 5px;
+}
+
+.Button1 {
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+button.button-1 {
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem 3rem 1rem 8rem;
+    background-color: hsla(350, 10%, 10%, 0.8);
+    position: relative;
+    color: green;
+    font-size: 1.4rem;
+    transition: all 250ms;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.button-1:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.al {
+    left: 0px;
+    position: absolute;
+}
+
+button.button-1 {
+    width: 200px;
+}
+
+.Startbutton img {
+    margin: 0px;
+    height: 3rem !important;
+    width: 5rem !important;
+    top: 0.5rem !important;
+    left: 0.0000000006px !important;
+    z-index: 2 !important;
+    position: absolute !important;
+}
+
+button.button-1 img {
+    top: 1.3rem;
+    left: 1.1rem;
+    z-index: 2;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+button.button-1 span {
+    z-index: 2;
+    position: relative;
+}
+
+.button.button-1 {
+    width: 308px;
+}
+
+button.button-1::after {
+    width: 3.9rem;
+    height: 3.9rem;
+    border-radius: 2rem;
+    background-color: hsla(200, 10%, 10%, 2);
+    ;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    transition: all 250ms;
+}

@@ -1,0 +1,78 @@
+.Schweiz {
+    margin: 5px;
+}
+
+.show {
+    fill: white !important;
+    opacity: 1 !important;
+}
+
+.path26-7-2-317-9-9-5-032-6 {
+    fill: olivedrab;
+}
+
+html {
+    background-color: black;
+}
+
+svg {
+    max-height: calc(100vh - 50px);
+    max-width: 100%;
+}
+
+body,
+html {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #0c1016;
+    display: -webkit-box;
+    display: flex;
+    font-family: "Roboto";
+    font-size: 10px;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    z-index: 5;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.buttons button {
+    margin: 0 0 0.5rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:focus {
+    outline: none;
+}
+
+svg {
+    width: 100%;
+    margin: 4rem;
+}
+
+svg path.show {
+    fill: white;
+}
