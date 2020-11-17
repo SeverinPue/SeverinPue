@@ -1,0 +1,25 @@
+{
+  "name": "severinpue.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-webserver": "^0.9.1",
+    "nan": "^2.14.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeverinPue/SeverinPue.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeverinPue/SeverinPue.github.io/issues"
+  },
+  "homepage": "https://github.com/SeverinPue/SeverinPue.github.io#readme"
+}
